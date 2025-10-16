@@ -1,0 +1,21 @@
+@import "tailwindcss"; 
+
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    /* Add the rest of your light-theme CSS variables here */
+    --primary: 222.2 47.4% 11.2%;
+    /* ...etc */
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    /* Add the rest of your dark-theme CSS variables here */
+    --primary: 210 40% 98%;
+    /* ...etc */
+  }
+}
