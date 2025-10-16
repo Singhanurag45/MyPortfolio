@@ -57,7 +57,7 @@ export const aboutSection = {
   education: {
     institution: "Maharaja Agrasen Institute of Technology, Delhi",
     degree: "B.Tech in Computer Science",
-    gpa: "CGPA: 7.673",
+    gpa: "CGPA: 7.67",
     years: "2023–2026", // UPDATED: Coursework from your resume
     coursework: [
       "Data Structures and Algorithms",
@@ -142,14 +142,14 @@ export const projects = [
   },
 ];
 
-// UPDATED: LeetCode stats based on your resume and previous info
+// UPDATED: LeetCode stats 
 export const leetCodeStats = {
   profilePic: leetCodeProfilePic,
   username: "Anurag singh",
-  handle: "Anuragsingh_123", // Updated handle from resume link
-  rank: "277,899", // Keeping previous detailed stats
+  handle: "Anuragsingh_123",
+  rank: "277,899", 
   solvedProblems: {
-    total: 372, // Updated to 350+ from resume
+    total: 372, 
     easy: "205/695",
     medium: "152/1911",
     hard: "15/865",

@@ -198,9 +198,8 @@ const LeetCode = () => {
               <div>
                 <p className="text-secondary text-sm">Badges:</p>
                 <p className="text-white font-medium text-lg">
-                  {/* --- FIX IS HERE --- */}
-                  {leetCodeStats.badges.length} ({leetCodeStats.mostRecentBadge}
-                  )
+                  {leetCodeStats.badges.length} {leetCodeStats.mostRecentBadge}
+                  
                 </p>
               </div>
             </div>
