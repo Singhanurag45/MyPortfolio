@@ -1,6 +1,8 @@
 // src/constants/index.js
 import project1Image from "../assets/megamart.png"; 
 import project2Image from "../assets/MomentShare.png";
+import project3Image from "../assets/task-manager.png";
+import project4Image from "../assets/civic_resolve.png";
 
 // Social media and profile pictures
 import githubIcon from "../assets/github.png";
@@ -9,20 +11,32 @@ import emailIcon from "../assets/e-mail.png";
 import profilePic from "../assets/anurag-profile.png";
 
 // Technology icons
+
+// Frontend Technologies
 import html from "../assets/tech/html.png";
 import css from "../assets/tech/css.png";
 import javascript from "../assets/tech/javascript.png";
 import reactjs from "../assets/tech/reactjs.png";
 import tailwind from "../assets/tech/tailwind.png";
+
+// backend Technologies
 import nodejs from "../assets/tech/nodejs.png";
 import express from "../assets/tech/express.png"; 
+
+// Databases
 import mongodb from "../assets/tech/mongodb.png";
-import git from "../assets/tech/git_github.png";
-import cpp from "../assets/tech/cpp.png";
 import javasql from "../assets/tech/mysql.png";
+
+import cpp from "../assets/tech/cpp.png";
 import java_icon from "../assets/tech/java.png"; 
 import python_icon from "../assets/tech/python.png"; 
+import typescript_icon from "../assets/tech/typescript.png";
+
+// Tools 
+import vercel from "../assets/tech/vercel.png";
+import render from "../assets/tech/render.png";
 import postman from "../assets/tech/postman.png"; 
+import git from "../assets/tech/git_github.png";
 
 // leetocde
 import leetCodeProfilePic from "../assets/Leetcode/leetcode-profile.png";
@@ -75,43 +89,67 @@ export const aboutSection = {
 // UPDATED: Skills section based on your resume
 export const skills = [
   {
-    title: "Frontend",
+    title: "Frontend Technologies",
     technologies: [
       { name: "HTML", icon: html },
       { name: "CSS", icon: css },
       { name: "JavaScript", icon: javascript },
+      { name: "TypeScript", icon: typescript_icon },
       { name: "React", icon: reactjs },
       { name: "Tailwind CSS", icon: tailwind },
     ],
   },
   {
-    title: "Backend",
+    title: "Backend Technologies and databases",
     technologies: [
       { name: "Node.js", icon: nodejs },
       { name: "Express.js", icon: express },
       { name: "MongoDB", icon: mongodb },
+      { name: "MySQL", icon: javasql },
     ],
   },
+  // {
+  //   title: "Databases",
+  //   technologies: [
+  //     { name: "MongoDB", icon: mongodb },
+  //     { name: "MySQL", icon: javasql },
+  //   ],
+  // },
   {
-    title: "Languages & Databases",
+    title: "Programming Languages",
     technologies: [
       { name: "C++", icon: cpp },
       { name: "Java", icon: java_icon },
       { name: "Python", icon: python_icon },
-      { name: "MySQL", icon: javasql },
     ],
   },
   {
-    title: "Tools & Technologies",
+    title: "Tools",
     technologies: [
-      { name: "Git & GitHub", icon: git }, // You can add more tools like Vercel here if you have icons
-      { name: "Postman", icon: postman }
+      { name: "Git & GitHub", icon: git },
+      { name: "Postman", icon: postman },
+      { name: "Vercel", icon: vercel },
+      { name: "Render", icon: render },
     ],
   },
 ];
 
 // UPDATED: Projects section based on your resume
 export const projects = [
+  {
+    name: "Civic Resolve – Civic Issue Management Platform",
+    description:
+      "A real-time, full-stack civic issue management platform designed to improve local governance by empowering citizens to report issues and enabling authorities to resolve them efficiently. This application supports photo uploads, status tracking, geotagging, and role-based access for admins and citizens.",
+    tags: [
+      { name: "react", color: "text-blue-500" },
+      { name: "nodejs", color: "text-green-500" },
+      { name: "express", color: "text-yellow-500" },
+      { name: "mongodb", color: "text-green-600" },
+      { name: "tailwind", color: "text-cyan-500" },
+    ],
+    image: project4Image,
+    source_code_link: "https://civic-resolve-ebon.vercel.app/",
+  },
   {
     name: "Moment Share – Social Media Platform",
     description:
@@ -138,8 +176,23 @@ export const projects = [
       { name: "tailwind", color: "text-cyan-500" },
     ],
     image: project1Image,
-    source_code_link: "https://github.com/Singhanurag45/MegaMart",
+    source_code_link: "https://github.com/Singhanurag45/MegaMart_Ecommerce_Website",
   },
+  {
+    name: "Task Manager – Productivity Application",
+    description:
+      "Built a comprehensive task management application with features like task creation, editing, deletion, and status tracking. Implemented user authentication and data persistence. Created an intuitive UI with drag-and-drop functionality and real-time updates for enhanced productivity.",
+    tags: [
+      { name: "react", color: "text-blue-500" },
+      { name: "nodejs", color: "text-green-500" },
+      { name: "express", color: "text-yellow-500" },
+      { name: "mongodb", color: "text-green-600" },
+      { name: "javascript", color: "text-yellow-400" },
+    ],
+    image: project3Image,
+    source_code_link: "https://github.com/Singhanurag45",
+  },
+ 
 ];
 
 // UPDATED: LeetCode stats 
