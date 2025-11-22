@@ -25,12 +25,8 @@ const socialLinks = [
     name: "LeetCode",
     icon: leetcodeIcon,
     link: "https://leetcode.com/Anuragsingh_123",
-  },
-  {
-    name: "Email",
-    icon: emailIcon,
-    link: "anuragsinghrbl2002@gmail.com",
-  },
+  }
+ 
 ];
 
 const footerLinks = [
