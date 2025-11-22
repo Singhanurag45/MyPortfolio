@@ -7,7 +7,6 @@ import { motion } from "framer-motion";
 import githubIcon from "../assets/github.png";
 import linkedinIcon from "../assets/linkedin.png";
 import leetcodeIcon from "../assets/leetcode-logo.png";
-import emailIcon from "../assets/e-mail.png";
 import arrowUpIcon from "../assets/up-arrow.png";
 
 const socialLinks = [
