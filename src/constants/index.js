@@ -109,13 +109,6 @@ export const skills = [
       { name: "MySQL", icon: javasql },
     ],
   },
-  // {
-  //   title: "Databases",
-  //   technologies: [
-  //     { name: "MongoDB", icon: mongodb },
-  //     { name: "MySQL", icon: javasql },
-  //   ],
-  // },
   {
     title: "Programming Languages",
     technologies: [
@@ -228,7 +221,7 @@ export const achievements = [
   {
     title: "Solved 500+ DSA Problems",
     description:
-      "Solved 400+ problems on LeetCode and 100+ on GeeksforGeeks, strengthening problem-solving skills and proficiency in core computer science concepts.",
+      "Solved 400 problems on LeetCode and 100+ on GeeksforGeeks, strengthening problem-solving skills and proficiency in core computer science concepts.",
     link: "https://leetcode.com/Anuragsingh_123/", // Updated LeetCode profile link
   },
   {
