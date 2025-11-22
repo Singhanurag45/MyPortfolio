@@ -7,7 +7,6 @@ import project4Image from "../assets/civic_resolve.png";
 // Social media and profile pictures
 import githubIcon from "../assets/github.png";
 import linkedinIcon from "../assets/linkedin.png";
-import emailIcon from "../assets/e-mail.png";
 import profilePic from "../assets/anurag-profile.png";
 
 // Technology icons
