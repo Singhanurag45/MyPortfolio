@@ -81,6 +81,7 @@ export const aboutSection = {
       "Object-Oriented Programming",
       "Software Engineering",
       "Artificial Intelligence",
+      "Machine Learning"
     ],
   },
 
@@ -200,15 +201,16 @@ export const leetCodeStats = {
   profilePic: leetCodeProfilePic,
   username: "Anurag singh",
   handle: "Anuragsingh_123",
-  rank: "277,899", 
+  rank: "257,828",
+
   solvedProblems: {
-    total: 372, 
-    easy: "205/695",
-    medium: "152/1911",
-    hard: "15/865",
-    totalAvailable: 3677,
+    total: 400,
+    easy: "225/913",
+    medium: "159/1951",
+    hard: "16/885",
+    totalAvailable: 3749,
   },
- 
+
   badges: [
     { id: 1, image: badge100, name: "100 Days Badge 2025" },
     { id: 2, image: badgeAnnual, name: "Annual Badge 2025" },
@@ -216,17 +218,17 @@ export const leetCodeStats = {
     { id: 4, image: badgeFourth, name: "Fourth Badge" },
   ],
 
-  submissionsPastYear: 600,
-  totalActiveDays: 180,
+  submissionsPastYear: 558,
+  totalActiveDays: 184,
   maxStreak: 33,
 };
 
 // UPDATED: Achievements and Certificates section from your resume
 export const achievements = [
   {
-    title: "Solved 450+ DSA Problems",
+    title: "Solved 500+ DSA Problems",
     description:
-      "Solved 350+ problems on LeetCode and 100+ on GeeksforGeeks, strengthening problem-solving skills and proficiency in core computer science concepts.",
+      "Solved 400+ problems on LeetCode and 100+ on GeeksforGeeks, strengthening problem-solving skills and proficiency in core computer science concepts.",
     link: "https://leetcode.com/Anuragsingh_123/", // Updated LeetCode profile link
   },
   {
