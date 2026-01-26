@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
-import githubIcon from "../../assets/github.png";
 
-const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ name, description, tags, image }) => {
   return (
     <motion.div
       whileHover={{ y: -8 }}
@@ -20,26 +19,7 @@ const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
         {/* Overlay Gradient */}
         <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         
-        {/* GitHub Link */}
-        <motion.div
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.95 }}
-          className="absolute top-4 right-4"
-        >
-          <a
-            href={source_code_link}
-            target="_blank"
-            rel="noopener noreferrer"
-            title="View Source Code"
-            className="w-12 h-12 rounded-full bg-slate-900/80 backdrop-blur-sm flex justify-center items-center cursor-pointer hover:bg-blue-600 transition-colors duration-300 border border-slate-700 hover:border-blue-500"
-          >
-            <img
-              src={githubIcon}
-              alt="github"
-              className="w-6 h-6 object-contain filter brightness-0 invert group-hover:brightness-100 group-hover:invert-0 transition-all duration-300"
-            />
-          </a>
-        </motion.div>
+        {/* GitHub Link REMOVED from here */}
       </div>
 
       {/* Content */}

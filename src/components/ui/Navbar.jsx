@@ -27,8 +27,10 @@ const Navbar = () => {
             <li
               key={link.id}
               className={`${
-                active === link.title ? "text-white" : "text-secondary"
-              } hover:text-white text-lg font-medium cursor-pointer`}
+                active === link.title 
+                  ? "text-white border-b-2 border-white" // Active: White text + Bottom Border
+                  : "text-secondary border-b-2 border-transparent" // Inactive: Grey text + Invisible Border (prevents jumping)
+              } hover:text-white text-lg font-medium cursor-pointer transition-colors duration-300 pb-1`} // pb-1 gives space for the underline
               onClick={() => setActive(link.title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>
@@ -38,9 +40,13 @@ const Navbar = () => {
 
         {/* Mobile Navigation */}
         <div className="sm:hidden flex flex-1 justify-end items-center">
-          <button onClick={() => setToggle(!toggle)} className="text-2xl">
+          <button 
+            onClick={() => setToggle(!toggle)} 
+            className="text-white text-2xl focus:outline-none"
+          >
             {toggle ? "✕" : "☰"}
           </button>
+          
           <div
             className={`${
               !toggle ? "hidden" : "flex"
@@ -51,7 +57,9 @@ const Navbar = () => {
                 <li
                   key={link.id}
                   className={`${
-                    active === link.title ? "text-white" : "text-secondary"
+                    active === link.title 
+                      ? "text-white font-bold" // Mobile Active: White & Bold
+                      : "text-secondary"       // Mobile Inactive: Grey
                   } font-medium cursor-pointer text-base`}
                   onClick={() => {
                     setToggle(!toggle);

@@ -1,8 +1,8 @@
 // src/constants/index.js
-import project1Image from "../assets/megamart.png"; 
-import project2Image from "../assets/MomentShare.png";
-import project3Image from "../assets/task-manager.png";
-import project4Image from "../assets/civic_resolve.png";
+import project1Image from "../assets/projects/megamart.png"; 
+import project2Image from "../assets/projects/MomentShare.png";
+import urbanstay from "../assets/projects/urbanstay.png"
+import project4Image from "../assets/projects/civic_resolve.png";
 
 // Social media and profile pictures
 import githubIcon from "../assets/github.png";
@@ -70,8 +70,8 @@ export const aboutSection = {
   education: {
     institution: "Maharaja Agrasen Institute of Technology, Delhi",
     degree: "B.Tech in Computer Science",
-    gpa: "CGPA: 7.67",
-    years: "2023–2026", // UPDATED: Coursework from your resume
+    gpa: "CGPA: 7.8",
+    years: "2026", // UPDATED: Coursework from your resume
     coursework: [
       "Data Structures and Algorithms",
       "Operating Systems",
@@ -130,6 +130,22 @@ export const skills = [
 // UPDATED: Projects section based on your resume
 export const projects = [
   {
+    name: "UrbanStay – Hotel booking platform",
+    description:
+      "A robust full-stack hotel booking platform built using the MERN stack. Features include secure user authentication, dynamic hotel search with advanced filtering, real-time booking management, and an intuitive admin interface. Designed for scalability, security, and a responsive user experience across all devices.",
+    tags: [
+      { name: "react", color: "text-blue-500" },
+      { name: "nodejs", color: "text-green-500" },
+      { name: "express", color: "text-yellow-500" },
+      { name: "mongodb", color: "text-green-600" },
+      { name: "typescript", color: "text-yellow-400" },
+      
+    ],
+    image: urbanstay,
+    source_code_link: "https://urban-stay-smoky.vercel.app/",
+  },
+ 
+  {
     name: "Civic Resolve – Civic Issue Management Platform",
     description:
       "A real-time, full-stack civic issue management platform designed to improve local governance by empowering citizens to report issues and enabling authorities to resolve them efficiently. This application supports photo uploads, status tracking, geotagging, and role-based access for admins and citizens.",
@@ -170,20 +186,6 @@ export const projects = [
     ],
     image: project1Image,
     source_code_link: "https://github.com/Singhanurag45/MegaMart_Ecommerce_Website",
-  },
-  {
-    name: "Task Manager – Productivity Application",
-    description:
-      "Built a comprehensive task management application with features like task creation, editing, deletion, and status tracking. Implemented user authentication and data persistence. Created an intuitive UI with drag-and-drop functionality and real-time updates for enhanced productivity.",
-    tags: [
-      { name: "react", color: "text-blue-500" },
-      { name: "nodejs", color: "text-green-500" },
-      { name: "express", color: "text-yellow-500" },
-      { name: "mongodb", color: "text-green-600" },
-      { name: "javascript", color: "text-yellow-400" },
-    ],
-    image: project3Image,
-    source_code_link: "https://github.com/Singhanurag45",
   },
  
 ];

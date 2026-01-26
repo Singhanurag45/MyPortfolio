@@ -33,7 +33,9 @@ const Projects = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="w-full max-w-[500px]"
+              // ADDED: Cursor pointer and click handler
+              className="w-full max-w-[500px] cursor-pointer"
+              onClick={() => window.open(project.source_code_link, "_blank")}
             >
               <ProjectCard {...project} />
             </motion.div>
