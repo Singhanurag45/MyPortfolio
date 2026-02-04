@@ -88,5 +88,4 @@ const Hero = () => {
   );
 };
 
-// Note: The duplicate export was removed.
 export default Hero;
