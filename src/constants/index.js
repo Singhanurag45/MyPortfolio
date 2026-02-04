@@ -7,7 +7,7 @@ import project4Image from "../assets/projects/civic_resolve.png";
 // Social media and profile pictures
 import githubIcon from "../assets/github.png";
 import linkedinIcon from "../assets/linkedin.png";
-import profilePic from "../assets/anurag-profile.png";
+
 
 // Technology icons
 
@@ -58,7 +58,6 @@ export const hero = {
   name: "Anurag Singh",
   tagline:
     "MERN Stack Developer building efficient, user-centric web applications.",
-  profilePic: profilePic,
   leetcodeLink: "https://leetcode.com/Anuragsingh_123",
   resumeLink: "/AnuragSingh_Full_stack.pdf",
 };

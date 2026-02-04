@@ -77,7 +77,7 @@ const Hero = () => {
             }}
           >
             <img
-              src={hero.profilePic}
+              src="anurag-profile.png"
               alt="Anurag Singh"
               className="w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] rounded-full object-cover border-8 border-tertiary shadow-glow"
             />
